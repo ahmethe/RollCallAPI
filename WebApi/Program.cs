@@ -22,6 +22,9 @@ namespace WebApi
             builder.Services.ConfigureRepositoryManager();
             builder.Services.ConfigureServiceManager();
             builder.Services.ConfigureLoggerService();
+            builder.Services.AddAutoMapper(typeof(Program));
+            builder.Services.ConfigureJwt(builder.Configuration);
+            builder.Services.ConfigureIdentity();
 
             var app = builder.Build();
 
@@ -36,6 +39,7 @@ namespace WebApi
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();

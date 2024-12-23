@@ -1,10 +1,12 @@
-﻿namespace Entities.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Entities.Models
 {
-    public class User
+    public class User : IdentityUser
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public String? FirstName { get; set; }
+        public String? LastName { get; set; }
+        public String? RefreshToken { get; set; }
+        public DateTime RefreshTokenExpireTime { get; set; }
     }
 }

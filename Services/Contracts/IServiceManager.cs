@@ -2,6 +2,6 @@
 {
     public interface IServiceManager
     {
-        IUserService UserService { get; }
+        IAuthenticationService AuthenticationService { get; }
     }
 }
