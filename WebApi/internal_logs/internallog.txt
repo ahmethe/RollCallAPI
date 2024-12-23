@@ -1091,3 +1091,35 @@ Error Number:208,State:1,Class:16
 2024-12-23 15:48:23.6306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-23 15:48:23.6306 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
 2024-12-23 15:48:23.6751 Info Configuration initialized.
+2024-12-23 19:59:56.1480 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 19:59:56.1640 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 19:59:56.1815 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 19:59:56.2724 Info Configuration initialized.
+2024-12-23 20:02:58.7260 Info AppDomain Shutting down. LogFactory closing...
+2024-12-23 20:02:58.7633 Info LogFactory has been closed.
+2024-12-23 20:04:32.8551 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 20:04:32.8710 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 20:04:32.8890 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 20:04:32.9522 Info Configuration initialized.
+2024-12-23 20:10:18.7382 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 20:10:18.7534 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 20:10:18.7688 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 20:10:18.8296 Info Configuration initialized.
+2024-12-23 20:10:44.2727 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 20:10:44.2964 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 20:10:44.3130 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 20:10:44.3701 Info Configuration initialized.
+2024-12-23 20:12:26.4425 Info AppDomain Shutting down. LogFactory closing...
+2024-12-23 20:12:26.4790 Info LogFactory has been closed.
+2024-12-23 20:14:03.8646 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 20:14:03.9758 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 20:14:04.0704 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 20:14:04.3693 Info Configuration initialized.
+2024-12-23 20:14:29.1180 Info AppDomain Shutting down. LogFactory closing...
+2024-12-23 20:14:29.1322 Info LogFactory has been closed.
+2024-12-23 20:14:42.9978 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-23 20:14:43.1112 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-23 20:14:43.2766 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-23 20:14:43.6563 Info Configuration initialized.
+2024-12-23 20:15:07.6640 Info AppDomain Shutting down. LogFactory closing...
+2024-12-23 20:15:07.6640 Info LogFactory has been closed.
