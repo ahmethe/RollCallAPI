@@ -11,6 +11,7 @@ namespace Services
     {
         private readonly Lazy<IAuthenticationService> _authenticationService;
         private readonly Lazy<ICustomerService> _customerService;
+        private readonly Lazy<IRollCallService> _rollcallService;
         public ServiceManager(IRepositoryManager repositoryManager,
             ILoggerService logger,
             IMapper mapper,
@@ -22,9 +23,14 @@ namespace Services
 
             _customerService = new Lazy<ICustomerService>(() =>
             new CustomerManager(repositoryManager));
+
+            _rollcallService = new Lazy<IRollCallService>(() =>
+            new RollCallManager(repositoryManager));
         }
 
         public IAuthenticationService AuthenticationService => _authenticationService.Value;
         public ICustomerService CustomerService => _customerService.Value;
+        public IRollCallService RollCallService => _rollcallService.Value;
+
     }
 }
