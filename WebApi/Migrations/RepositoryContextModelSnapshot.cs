@@ -22,28 +22,13 @@ namespace WebApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CustomerRollCall", b =>
-                {
-                    b.Property<int>("CustomersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RollCallsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CustomersId", "RollCallsId");
-
-                    b.HasIndex("RollCallsId");
-
-                    b.ToTable("CustomerRollCall");
-                });
-
             modelBuilder.Entity("Entities.Models.Customer", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CustomerId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerId"));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -53,9 +38,23 @@ namespace WebApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("CustomerId");
 
                     b.ToTable("Customers");
+
+                    b.HasData(
+                        new
+                        {
+                            CustomerId = 1,
+                            Name = "Ahmet Hilmi",
+                            Surname = "Erden"
+                        },
+                        new
+                        {
+                            CustomerId = 2,
+                            Name = "Selman Emin",
+                            Surname = "Erden"
+                        });
                 });
 
             modelBuilder.Entity("Entities.Models.Payment", b =>
@@ -66,7 +65,7 @@ namespace WebApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CustomerId")
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
@@ -81,6 +80,29 @@ namespace WebApi.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Payments");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CustomerId = 1,
+                            Date = new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5301),
+                            Detail = "1000 TL okul ücreti."
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CustomerId = 2,
+                            Date = new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5313),
+                            Detail = "200 TL Ekipman ücreti."
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CustomerId = 2,
+                            Date = new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5315),
+                            Detail = "1500 TL okul ücreti."
+                        });
                 });
 
             modelBuilder.Entity("Entities.Models.RollCall", b =>
@@ -205,13 +227,13 @@ namespace WebApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "06ec347c-ed41-4783-800e-61d1ee40f3b7",
+                            Id = "139b2eda-02bc-46f7-8c27-c560bfd06dc5",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "2c66ea05-601c-4d45-b5b0-07588ba6f38c",
+                            Id = "35063b21-f5b5-4fb1-b0d2-64fc4823d3dc",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -323,26 +345,15 @@ namespace WebApi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("CustomerRollCall", b =>
-                {
-                    b.HasOne("Entities.Models.Customer", null)
-                        .WithMany()
-                        .HasForeignKey("CustomersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Entities.Models.RollCall", null)
-                        .WithMany()
-                        .HasForeignKey("RollCallsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Entities.Models.Payment", b =>
                 {
-                    b.HasOne("Entities.Models.Customer", null)
-                        .WithMany("Payments")
-                        .HasForeignKey("CustomerId");
+                    b.HasOne("Entities.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -394,11 +405,6 @@ namespace WebApi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Entities.Models.Customer", b =>
-                {
-                    b.Navigation("Payments");
                 });
 #pragma warning restore 612, 618
         }

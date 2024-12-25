@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebApi.Migrations
 {
     /// <inheritdoc />
-    public partial class AddRolesToDatabase : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,6 +34,8 @@ namespace WebApi.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    RefreshToken = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    RefreshTokenExpireTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -58,14 +60,14 @@ namespace WebApi.Migrations
                 name: "Customers",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    CustomerId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customers", x => x.Id);
+                    table.PrimaryKey("PK_Customers", x => x.CustomerId);
                 });
 
             migrationBuilder.CreateTable(
@@ -195,7 +197,7 @@ namespace WebApi.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Detail = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerId = table.Column<int>(type: "int", nullable: true)
+                    CustomerId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -204,30 +206,7 @@ namespace WebApi.Migrations
                         name: "FK_Payments_Customers_CustomerId",
                         column: x => x.CustomerId,
                         principalTable: "Customers",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "CustomerRollCall",
-                columns: table => new
-                {
-                    CustomersId = table.Column<int>(type: "int", nullable: false),
-                    RollCallsId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CustomerRollCall", x => new { x.CustomersId, x.RollCallsId });
-                    table.ForeignKey(
-                        name: "FK_CustomerRollCall_Customers_CustomersId",
-                        column: x => x.CustomersId,
-                        principalTable: "Customers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_CustomerRollCall_RollCalls_RollCallsId",
-                        column: x => x.RollCallsId,
-                        principalTable: "RollCalls",
-                        principalColumn: "Id",
+                        principalColumn: "CustomerId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -236,8 +215,27 @@ namespace WebApi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "6754f738-ee5f-4041-980b-3836d39bb438", null, "Admin", "ADMIN" },
-                    { "79726a44-937f-4fc9-9f8b-ea8a010de180", null, "User", "USER" }
+                    { "139b2eda-02bc-46f7-8c27-c560bfd06dc5", null, "User", "USER" },
+                    { "35063b21-f5b5-4fb1-b0d2-64fc4823d3dc", null, "Admin", "ADMIN" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Customers",
+                columns: new[] { "CustomerId", "Name", "Surname" },
+                values: new object[,]
+                {
+                    { 1, "Ahmet Hilmi", "Erden" },
+                    { 2, "Selman Emin", "Erden" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Payments",
+                columns: new[] { "Id", "CustomerId", "Date", "Detail" },
+                values: new object[,]
+                {
+                    { 1, 1, new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5301), "1000 TL okul ücreti." },
+                    { 2, 2, new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5313), "200 TL Ekipman ücreti." },
+                    { 3, 2, new DateTime(2024, 12, 24, 17, 33, 33, 173, DateTimeKind.Local).AddTicks(5315), "1500 TL okul ücreti." }
                 });
 
             migrationBuilder.CreateIndex(
@@ -280,11 +278,6 @@ namespace WebApi.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CustomerRollCall_RollCallsId",
-                table: "CustomerRollCall",
-                column: "RollCallsId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Payments_CustomerId",
                 table: "Payments",
                 column: "CustomerId");
@@ -309,19 +302,16 @@ namespace WebApi.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "CustomerRollCall");
+                name: "Payments");
 
             migrationBuilder.DropTable(
-                name: "Payments");
+                name: "RollCalls");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
-
-            migrationBuilder.DropTable(
-                name: "RollCalls");
 
             migrationBuilder.DropTable(
                 name: "Customers");

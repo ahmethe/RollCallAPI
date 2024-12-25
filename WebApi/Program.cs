@@ -13,7 +13,11 @@ namespace WebApi
             LogManager.Setup().LoadConfigurationFromFile(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
             builder.Services.AddControllers()
-                .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
+                .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+                .AddNewtonsoftJson(opt =>
+                    opt.SerializerSettings.ReferenceLoopHandling =
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -23,8 +27,8 @@ namespace WebApi
             builder.Services.ConfigureServiceManager();
             builder.Services.ConfigureLoggerService();
             builder.Services.AddAutoMapper(typeof(Program));
-            builder.Services.ConfigureJwt(builder.Configuration);
             builder.Services.ConfigureIdentity();
+            builder.Services.ConfigureJwt(builder.Configuration);
 
             var app = builder.Build();
 

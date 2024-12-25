@@ -1123,3 +1123,305 @@ Error Number:208,State:1,Class:16
 2024-12-23 20:14:43.6563 Info Configuration initialized.
 2024-12-23 20:15:07.6640 Info AppDomain Shutting down. LogFactory closing...
 2024-12-23 20:15:07.6640 Info LogFactory has been closed.
+2024-12-24 01:36:10.0599 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 01:36:10.0730 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 01:36:10.0825 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 01:36:10.1315 Info Configuration initialized.
+2024-12-24 01:36:11.3482 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 01:36:11.3482 Info LogFactory has been closed.
+2024-12-24 01:36:32.6930 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 01:36:32.6930 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 01:36:32.7092 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 01:36:32.7092 Info Configuration initialized.
+2024-12-24 01:36:34.4800 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 01:36:34.4800 Info LogFactory has been closed.
+2024-12-24 01:37:47.3820 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 01:37:47.3820 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 01:37:47.3820 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 01:37:47.3996 Info Configuration initialized.
+2024-12-24 01:37:48.1150 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 01:37:48.1150 Info LogFactory has been closed.
+2024-12-24 01:37:50.9895 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 01:37:50.9895 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 01:37:50.9895 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 01:37:51.0078 Info Configuration initialized.
+2024-12-24 01:37:51.6708 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 01:37:51.6708 Info LogFactory has been closed.
+2024-12-24 17:33:21.4119 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:33:21.4119 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:33:21.4338 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:33:21.4827 Info Configuration initialized.
+2024-12-24 17:33:22.2689 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:33:22.2739 Info LogFactory has been closed.
+2024-12-24 17:33:24.0257 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:33:24.0420 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:33:24.0420 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:33:24.0562 Info Configuration initialized.
+2024-12-24 17:33:25.8702 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:33:25.8702 Info LogFactory has been closed.
+2024-12-24 17:33:32.5606 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:33:32.5729 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:33:32.5729 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:33:32.5887 Info Configuration initialized.
+2024-12-24 17:33:33.9614 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:33:33.9614 Info LogFactory has been closed.
+2024-12-24 17:35:08.7662 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:35:08.7749 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:35:08.7749 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:35:08.7902 Info Configuration initialized.
+2024-12-24 17:35:10.1130 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:35:10.1185 Info LogFactory has been closed.
+2024-12-24 17:38:29.1821 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:38:29.2127 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:38:29.2454 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:38:29.3545 Info Configuration initialized.
+2024-12-24 17:41:35.1660 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:41:35.1660 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:41:35.1883 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:41:35.1982 Info Configuration initialized.
+2024-12-24 17:41:51.0071 Error DatabaseTarget(Name=database): Error when writing to database. Exception: Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Log'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:8df2887b-a3a6-4c1b-ab9c-1e68c9d3d077
+Error Number:208,State:1,Class:16
+2024-12-24 17:43:49.9315 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:43:49.9315 Info LogFactory has been closed.
+2024-12-24 17:59:28.7457 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 17:59:28.7651 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 17:59:28.7790 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 17:59:28.8458 Info Configuration initialized.
+2024-12-24 17:59:57.2733 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 17:59:57.2961 Info LogFactory has been closed.
+2024-12-24 18:12:08.2233 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:12:08.2413 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:12:08.2552 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:12:08.3136 Info Configuration initialized.
+2024-12-24 18:13:12.2961 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:13:12.3214 Info LogFactory has been closed.
+2024-12-24 18:19:25.1803 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:19:25.1949 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:19:25.2086 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:19:25.2621 Info Configuration initialized.
+2024-12-24 18:20:55.4681 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:20:55.4825 Info LogFactory has been closed.
+2024-12-24 18:22:21.8805 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:22:21.9048 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:22:21.9281 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:22:21.9859 Info Configuration initialized.
+2024-12-24 18:23:24.7224 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:23:24.7847 Info LogFactory has been closed.
+2024-12-24 18:24:19.9729 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:24:19.9928 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:24:20.0140 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:24:20.0947 Info Configuration initialized.
+2024-12-24 18:31:21.8576 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:31:21.8697 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:31:21.8697 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:31:21.9091 Info Configuration initialized.
+2024-12-24 18:32:30.7045 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:32:30.7110 Info LogFactory has been closed.
+2024-12-24 18:37:41.4014 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:37:41.4112 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:37:41.4112 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:37:41.4559 Info Configuration initialized.
+2024-12-24 18:39:05.0258 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:39:05.0441 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:39:05.0512 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:39:05.0890 Info Configuration initialized.
+2024-12-24 18:40:27.0316 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:40:27.0467 Info LogFactory has been closed.
+2024-12-24 18:41:36.7428 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:41:36.7428 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:41:36.7605 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:41:36.8009 Info Configuration initialized.
+2024-12-24 18:43:22.4756 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:43:22.4756 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:43:22.4969 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:43:22.5325 Info Configuration initialized.
+2024-12-24 18:43:29.4522 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:43:29.4586 Info LogFactory has been closed.
+2024-12-24 18:44:17.8353 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:44:17.8353 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:44:17.8514 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:44:17.8900 Info Configuration initialized.
+2024-12-24 18:45:00.1331 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:45:00.1529 Info LogFactory has been closed.
+2024-12-24 18:45:30.0059 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:45:30.0059 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:45:30.0240 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:45:30.0580 Info Configuration initialized.
+2024-12-24 18:46:49.6304 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:46:49.6304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:46:49.6461 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:46:49.6800 Info Configuration initialized.
+2024-12-24 18:48:49.4737 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:48:49.4737 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:48:49.4996 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:48:49.5466 Info Configuration initialized.
+2024-12-24 18:49:06.6121 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:49:06.6199 Info LogFactory has been closed.
+2024-12-24 18:51:04.1722 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 18:51:04.1809 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 18:51:04.1809 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 18:51:04.2233 Info Configuration initialized.
+2024-12-24 18:52:03.2581 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 18:52:03.2581 Info LogFactory has been closed.
+2024-12-24 19:10:21.7320 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:10:21.7465 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:10:21.7465 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:10:21.7838 Info Configuration initialized.
+2024-12-24 19:11:03.1971 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:11:03.2089 Info LogFactory has been closed.
+2024-12-24 19:11:34.4653 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:11:34.4653 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:11:34.4796 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:11:34.5158 Info Configuration initialized.
+2024-12-24 19:11:49.2893 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:11:49.2893 Info LogFactory has been closed.
+2024-12-24 19:19:23.8215 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:19:23.8215 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:19:23.8359 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:19:23.8666 Info Configuration initialized.
+2024-12-24 19:20:33.5600 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:20:33.5600 Info LogFactory has been closed.
+2024-12-24 19:32:05.9406 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:32:05.9538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:32:05.9681 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:32:06.0042 Info Configuration initialized.
+2024-12-24 19:32:21.6145 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:32:21.6145 Info LogFactory has been closed.
+2024-12-24 19:37:56.8046 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:37:56.8046 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:37:56.8256 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:37:56.8631 Info Configuration initialized.
+2024-12-24 19:38:45.6978 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:38:45.7080 Info LogFactory has been closed.
+2024-12-24 19:41:00.5755 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:41:00.5856 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:41:00.5856 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:41:00.6295 Info Configuration initialized.
+2024-12-24 19:41:29.3295 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:41:29.3411 Info LogFactory has been closed.
+2024-12-24 19:42:04.5580 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:42:04.5765 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:42:04.5924 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:42:04.6291 Info Configuration initialized.
+2024-12-24 19:45:01.2774 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:45:01.3005 Info LogFactory has been closed.
+2024-12-24 19:46:47.3704 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-24 19:46:47.3837 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-24 19:46:47.3837 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-24 19:46:47.4226 Info Configuration initialized.
+2024-12-24 19:53:15.7694 Info AppDomain Shutting down. LogFactory closing...
+2024-12-24 19:53:15.7804 Info LogFactory has been closed.
+2024-12-25 00:14:48.2556 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:14:48.2736 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:14:48.2924 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:14:48.3952 Info Configuration initialized.
+2024-12-25 00:18:05.0209 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 00:18:05.0503 Info LogFactory has been closed.
+2024-12-25 00:22:33.3198 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:22:33.4093 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:22:33.4958 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:22:33.8366 Info Configuration initialized.
+2024-12-25 00:25:40.8075 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:25:40.8075 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:25:40.8333 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:25:40.8851 Info Configuration initialized.
+2024-12-25 00:26:36.3024 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 00:26:36.3285 Info LogFactory has been closed.
+2024-12-25 00:27:21.1883 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:27:21.2016 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:27:21.2154 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:27:21.2629 Info Configuration initialized.
+2024-12-25 00:28:43.3733 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:28:43.4674 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:28:43.6043 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:28:43.9633 Info Configuration initialized.
+2024-12-25 00:28:55.9012 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:28:55.9212 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:28:55.9212 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:28:55.9472 Info Configuration initialized.
+2024-12-25 00:29:13.4146 Error DatabaseTarget(Name=database): Error when writing to database. Exception: Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Log'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:e8e887c2-71a4-4c7b-92c1-0d0180db91f4
+Error Number:208,State:1,Class:16
+2024-12-25 00:30:03.1075 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 00:30:03.1075 Info LogFactory has been closed.
+2024-12-25 00:31:15.4603 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:31:15.6169 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:31:15.7277 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:31:16.0666 Info Configuration initialized.
+2024-12-25 00:37:44.6314 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:37:44.7187 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:37:44.7962 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:37:45.1125 Info Configuration initialized.
+2024-12-25 00:44:48.4024 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:44:48.4231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:44:48.4447 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:44:48.5280 Info Configuration initialized.
+2024-12-25 00:54:04.9368 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 00:54:04.9506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 00:54:04.9506 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 00:54:04.9884 Info Configuration initialized.
+2024-12-25 00:57:02.9146 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 00:57:02.9340 Info LogFactory has been closed.
+2024-12-25 01:00:24.8235 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 01:00:24.8235 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 01:00:24.8377 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 01:00:24.8665 Info Configuration initialized.
+2024-12-25 01:11:53.8294 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 01:11:53.8294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 01:11:53.8445 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 01:11:53.8722 Info Configuration initialized.
+2024-12-25 01:26:48.8619 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 01:26:48.8619 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 01:26:48.8760 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 01:26:48.9082 Info Configuration initialized.
+2024-12-25 01:53:57.2292 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 01:53:57.2292 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 01:53:57.2292 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 01:53:57.2726 Info Configuration initialized.
+2024-12-25 11:21:14.3481 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 11:21:14.3603 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 11:21:14.3730 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 11:21:14.4347 Info Configuration initialized.
+2024-12-25 11:22:00.8542 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 11:22:00.8715 Info LogFactory has been closed.
+2024-12-25 11:22:04.4988 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 11:22:04.5155 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 11:22:04.5291 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 11:22:04.5583 Info Configuration initialized.
+2024-12-25 11:22:51.4571 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 11:22:51.4679 Info LogFactory has been closed.
+2024-12-25 13:50:49.1830 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 13:50:49.2043 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 13:50:49.2251 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 13:50:49.3591 Info Configuration initialized.
+2024-12-25 13:57:04.2721 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 13:57:04.3357 Info LogFactory has been closed.
+2024-12-25 13:57:35.1207 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2024-12-25 13:57:35.1207 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-25 13:57:35.1487 Info Validating config: TargetNames=database, ConfigItems=23, FilePath=C:\Users\ahmet\source\repos\RollCallAPI\WebApi\nlog.config
+2024-12-25 13:57:35.2145 Info Configuration initialized.
+2024-12-25 13:59:57.3556 Info AppDomain Shutting down. LogFactory closing...
+2024-12-25 13:59:57.3556 Info LogFactory has been closed.

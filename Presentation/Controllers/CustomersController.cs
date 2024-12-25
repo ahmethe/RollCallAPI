@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 
@@ -15,6 +16,7 @@ namespace Presentation.Controllers
             _service = service;
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult GetAllCustomers()
         {
@@ -22,38 +24,42 @@ namespace Presentation.Controllers
             return Ok(customers);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetCustomerById(int id)
+        [Authorize]
+        [HttpGet("{id:int}")]
+        public IActionResult GetCustomerById([FromRoute] int id)
         {
             var customer = _service.CustomerService.GetCustomerById(id, false);
 
             return Ok(customer);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public IActionResult AddCustomer([FromBody] Customer customer)
+        public IActionResult AddCustomer([FromBody] CustomerDto customerDto)
         {
-            if (customer == null)
+            if (customerDto == null)
                 return BadRequest();
 
-            _service.CustomerService.AddCustomer(customer);
+            _service.CustomerService.AddCustomer(customerDto);
             
-            return StatusCode(201, customer);
+            return StatusCode(201, customerDto);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateCustomer(int id, [FromBody] Customer customer)
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id:int}")]
+        public IActionResult UpdateCustomer([FromRoute] int id, [FromBody] CustomerDtoForUpdate customerDto)
         {
-            if (customer == null)
+            if (customerDto == null)
                 return BadRequest();
 
-            _service.CustomerService.UpdateCustomer(id, customer, true);
+            _service.CustomerService.UpdateCustomer(id, customerDto, true);
 
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult DeleteCustomer(int id)
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteCustomer([FromRoute] int id)
         {
             _service.CustomerService.DeleteCustomer(id, false);
 

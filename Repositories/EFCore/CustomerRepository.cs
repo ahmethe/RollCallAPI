@@ -14,11 +14,11 @@ namespace Repositories.EFCore
 
         public void DeleteOneCustomer(Customer customer) => Delete(customer);
 
-        public IQueryable<Customer> GetAllCustomers(bool trackChanges) =>
+        public IEnumerable<Customer> GetAllCustomers(bool trackChanges) =>
             FindAll(trackChanges);
 
         public Customer GetOneCustomerById(int id, bool trackChanges) =>
-            FindByCondition(c => c.Id.Equals(id), trackChanges)
+            FindByCondition(c => c.CustomerId.Equals(id), trackChanges)
             .SingleOrDefault();
 
         public void UpdateOneCustomer(Customer customer) => Update(customer);
